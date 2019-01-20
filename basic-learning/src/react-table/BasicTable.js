@@ -3,14 +3,31 @@ import ReactTable from 'react-table'
  
 class BasicTable extends Component{
   render() {
-    const data = [{
-      name: 'Tanner Linsley',
-      age: 26,
+    const data = [
+      {
+      name: 'Ali',
+      age: 28,
       friend: {
-        name: 'Jason Maurer',
-        age: 23,
-      }
-    }]
+        name: 'Abubakar',
+        age: 24,
+        }
+      },
+      {
+        name: 'Qasim',
+        age: 27,
+        friend: {
+          name: 'Jason Maurer',
+          age: 25,
+        }
+      },
+      {
+          name: 'Tanner Linsley',
+          age: 26,
+          friend: {
+            name: 'Jason Maurer',
+            age: 23,
+          }
+      }]
    
     const columns = [{
       Header: 'Name',
