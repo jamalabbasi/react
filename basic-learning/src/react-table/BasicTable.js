@@ -48,6 +48,7 @@ class BasicTable extends Component{
       <ReactTable
       data={data}
       columns={columns}
+      sortable={ false}//making table sortable      
       />
     )
   }
